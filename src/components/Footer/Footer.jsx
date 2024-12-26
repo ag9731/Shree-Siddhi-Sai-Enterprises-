@@ -28,21 +28,23 @@ const Footer = () => {
   return (
     <div className="footer bg-zinc-950 py-8">
       {/* Newslatter and Columns */}
-      <div className=" bg-black bg-opacity-50 absolute top-0 left-0 p-4
-      h-full ">
+      <div
+        className=" bg-black bg-opacity-50 absolute top-0 left-0 p-4
+      h-full "
+      >
         {/* Footer Columns */}
         <div className="footer-columns p-10">
           <div className="flex flex-col lg:flex-row md:flex-row ">
             {/* Column */}
             <div className="w-full sm:w-1/3 mb-8 sm:mb-0 text-left">
               <div className="-my-12 text-white">
-
                 <div className="font-bold flex flex-row items-center justify-center">
-                  <img src={logo} className='w-[150px] h-[150px] py-2' />
-
+                  <img src={logo} className="w-[150px] h-[150px] py-2" />
                 </div>
                 <p className="text-justify">
-                  Established in 1994, Shree Chethan Services has been providing our clients with excellent services in Karnataka and across India.
+                  Established in 1994, Shree Chethan Services has been providing
+                  our clients with excellent services in Karnataka and across
+                  India.
                 </p>
                 <div className="social-icons mt-4">
                   <ul className="flex space-x-3 justify-center">
@@ -100,17 +102,23 @@ const Footer = () => {
             {/* Column */}
             <div className="w-full sm:w-1/3 my-8 lg:my-0 md:my-0 mb-12 ">
               <div className="footer-c-widget h-white list-widget text-white">
-                <h3 className="text-lg font-semibold mb-4 flex justify-center">QUICK LINKS</h3>
+                <h3 className="text-lg font-semibold mb-4 flex justify-center">
+                  QUICK LINKS
+                </h3>
                 <ul className="flex flex-col items-center justify-center">
                   <li className="relative">
-                    <Link onClick={handleClick} to={"/"}
+                    <Link
+                      onClick={handleClick}
+                      to={"/"}
                       className="block mb-2 after:content-[''] after:absolute after:w-10 after:h-0.5 after:bg-amber-400 after:left-0 after:bottom-0 after:scale-x-0 hover:after:scale-x-100 after:origin-left after:transition-transform after:duration-300"
                     >
                       Home
                     </Link>
                   </li>
                   <li className="relative">
-                    <Link onClick={handleClick} to={"/about"}
+                    <Link
+                      onClick={handleClick}
+                      to={"/aboutUs"}
                       className="block mb-2 after:content-[''] after:absolute after:w-10 after:h-0.5 after:bg-amber-400 after:left-0 after:bottom-0 after:scale-x-0 hover:after:scale-x-100 after:origin-left after:transition-transform after:duration-300"
                     >
                       About Us
@@ -118,14 +126,18 @@ const Footer = () => {
                     {/* <AboutDropdown/> */}
                   </li>
                   <li className="relative">
-                    <Link onClick={handleClick} to={"/project"}
+                    <Link
+                      onClick={handleClick}
+                      to={"/project"}
                       className="block mb-2 after:content-[''] after:absolute after:w-10 after:h-0.5 after:bg-amber-400 after:left-0 after:bottom-0 after:scale-x-0 hover:after:scale-x-100 after:origin-left after:transition-transform after:duration-300"
                     >
                       Project
                     </Link>
                   </li>
                   <li className="relative">
-                    <Link onClick={handleClick} to={"/client"}
+                    <Link
+                      onClick={handleClick}
+                      to={"/client"}
                       className="block mb-2 after:content-[''] after:absolute after:w-10 after:h-0.5 after:bg-amber-400 after:left-0 after:bottom-0 after:scale-x-0 hover:after:scale-x-100 after:origin-left after:transition-transform after:duration-300"
                     >
                       Clientele
@@ -139,10 +151,10 @@ const Footer = () => {
                     </Link>
                   </li> */}
 
-
-
                   <li className="relative ">
-                    <Link onClick={handleClick} to={"/contact"}
+                    <Link
+                      onClick={handleClick}
+                      to={"/contact"}
                       className="block mb-2 after:content-[''] after:absolute
                        after:w-10 after:h-0.5 after:bg-amber-400 after:left-0 after:bottom-0 after:scale-x-0 hover:after:scale-x-100 after:origin-left after:transition-transform after:duration-300"
                     >
@@ -154,30 +166,37 @@ const Footer = () => {
             </div>
             <div className="w-full sm:w-1/3  lg:my-0 md:my-0 ">
               <div className="footer-c-widget h-white list-widget text-white">
-                <h3 className="text-lg font-semibold text-center mb-4 mx-14">SERVICES</h3>
+                <h3 className="text-lg font-semibold text-center mb-4 mx-14">
+                  SERVICES
+                </h3>
                 <ul className="flex flex-col items-center justify-center">
                   <li className="relative">
-                    <Link onClick={handleClick} to={"/excavation"}
+                    <Link
+                      onClick={handleClick}
+                      to={"/excavation"}
                       className="block mb-2 after:content-[''] after:absolute after:w-10 after:h-0.5 after:bg-amber-400 after:left-0 after:bottom-0 after:scale-x-0 hover:after:scale-x-100 after:origin-left after:transition-transform after:duration-300"
                     >
                       Excavation Services
                     </Link>
                   </li>
                   <li className="relative">
-                    <Link onClick={handleClick} to={"/demolition"}
+                    <Link
+                      onClick={handleClick}
+                      to={"/demolition"}
                       className="block mb-2 after:content-[''] after:absolute after:w-10 after:h-0.5 after:bg-amber-400 after:left-0 after:bottom-0 after:scale-x-0 hover:after:scale-x-100 after:origin-left after:transition-transform after:duration-300"
                     >
                       Demolition/Dismantling Services
                     </Link>
                   </li>
                   <li className="relative">
-                    <Link onClick={handleClick} to={"/siteprep"}
+                    <Link
+                      onClick={handleClick}
+                      to={"/siteprep"}
                       className="block mb-2 after:content-[''] after:absolute after:w-10 after:h-0.5 after:bg-amber-400 after:left-0 after:bottom-0 after:scale-x-0 hover:after:scale-x-100 after:origin-left after:transition-transform after:duration-300"
                     >
                       Site Preparations
                     </Link>
                   </li>
-
                 </ul>
               </div>
             </div>
@@ -192,7 +211,8 @@ const Footer = () => {
                       icon={faMapMarkerAlt}
                       className="text-amber-400 text-xl px-4"
                     />{" "}
-                    53/3, Nagavarapalya Main Rd, Rajana Colony, C V Raman Nagar, Bengaluru, Karnataka 560093
+                    53/3, Nagavarapalya Main Rd, Rajana Colony, C V Raman Nagar,
+                    Bengaluru, Karnataka 560093
                   </li>
                   <hr className="border-gray-700 mb-4" />
                   <h5 className="text-md text-center  md:text-center font-semibold mb-2">
@@ -205,7 +225,7 @@ const Footer = () => {
                     />{" "}
                     +91-9448334376
                   </li>
-                  
+
                   <hr className="border-gray-700 mb-4" />
                   {/* <li className="flex items-start">
                     <FontAwesomeIcon
@@ -225,7 +245,6 @@ const Footer = () => {
             {/* Column */}
           </div>
         </div>
-       
       </div>
       {/* Sub Footer */}
       {/* <div className="sub-footer bg-gray-900 text-white text-center py-4">
