@@ -1,5 +1,7 @@
 import React from 'react';
-import aboutImg from "../../assets/excavation.jpg";
+// import aboutImg from "../../assets/excavation.jpg";
+import aboutImg from "../../assets/excavation.webp";
+import aboutImg2 from "../../assets/commitment.webp";
 import AboutWhatWeDo from './AboutWhatWeDo';
 
 const AboutBody = () => {
@@ -73,7 +75,7 @@ const AboutBody = () => {
               <div className="mt-10 lg:mt-0 lg:col-start-1 lg:row-start-1">
                 <img
                   className="rounded-lg shadow-lg object-cover w-full h-64 sm:h-72 md:h-96 lg:h-full"
-                  src={aboutImg}
+                  src={aboutImg2}
                   alt="Excavation Work"
                 />
               </div>
