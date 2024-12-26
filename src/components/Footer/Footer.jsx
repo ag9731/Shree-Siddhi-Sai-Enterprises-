@@ -211,8 +211,8 @@ const Footer = () => {
                       icon={faMapMarkerAlt}
                       className="text-amber-400 text-xl px-4"
                     />{" "}
-                    53/3, Nagavarapalya Main Rd, Rajana Colony, C V Raman Nagar,
-                    Bengaluru, Karnataka 560093
+                    #637, Muniyappa complex, jalahalli cross circle, peenya,
+                    bengaluru- 560057
                   </li>
                   <hr className="border-gray-700 mb-4" />
                   <h5 className="text-md text-center  md:text-center font-semibold mb-2">
