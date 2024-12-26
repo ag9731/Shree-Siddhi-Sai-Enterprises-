@@ -8,7 +8,7 @@ import {
   faWhatsapp,
 } from "@fortawesome/free-brands-svg-icons";
 import { faEnvelopeOpen } from "@fortawesome/free-solid-svg-icons";
-import logo from "../../assets/Logo (2).png";
+import logo from "../../assets/logo11.png";
 
 const Footer = () => {
   const handleClick = () => {

@@ -45,8 +45,12 @@ const ContactBody = () => {
                   icon={faMobileAlt}
                 />
                 <p className="text-gray-950">
-                  <a href="tel:+919845956633" className="hover:underline">
-                    +91-98459 56633
+                  <a href="tel:+91-9448334376" className="hover:underline">
+                    +91-94483 34376
+                  </a>
+                  <br/>
+                  <a href="tel:+919632676109" className="hover:underline">
+                    +91-9632676109
                   </a>
                 </p>
               </div>
@@ -57,10 +61,10 @@ const ContactBody = () => {
                 />
                 <p className="text-gray-950">
                   <a
-                    href="mailto:chethanaservices@gmail.com"
+                    href="mailto:mob9448334376@gmail.com"
                     className="hover:underline"
                   >
-                    chethanaservices@gmail.com
+                    mob9448334376@gmail.com
                   </a>
                 </p>
               </div>

@@ -2,9 +2,9 @@ import React from 'react';
 import { Carousel } from 'react-responsive-carousel';
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
 // import h1 from "../../assets/homeHero1.jpg";
-import h2 from "../../assets/homeHero2.jpg"
-import h3 from "../../assets/homeHero3.jpg";
-import h4 from "../../assets/homeHero4.jpg";
+import h2 from "../../assets/homeHero3.webp"
+import h3 from "../../assets/homeHero2.webp";
+import h4 from "../../assets/homeHero1.webp";
 import "./Home.css"
 import HomeHeroText from './HomeHeroText';
 
