@@ -17,7 +17,7 @@ const Home = () => {
       <HomeHero/>
       <HomeServices/>
       <HomeAbout/>
-      <ResidentialProjects/>
+      {/* <ResidentialProjects/> */}
       <AchievementCounter/>
 
         <Client/>

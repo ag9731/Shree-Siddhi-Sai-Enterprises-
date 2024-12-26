@@ -10,11 +10,11 @@ const AchievementCounter = () => {
 
   useEffect(() => {
     const interval = setInterval(() => {
-      setEmployees((prev) => (prev < 750 ? prev + 5 : 750));
-      setProjects((prev) => (prev < 200 ? prev + 2 : 200));
-      setBuiltArea((prev) => (prev < 64.8 ? prev + 0.1 : 64.8));
-      setOngoingProjects((prev) => (prev < 47 ? prev + 1 : 47));
-      setClients((prev) => (prev < 120 ? prev + 1 : 120));
+      setEmployees((prev) => (prev < 150 ? prev + 5 : 150));
+      setProjects((prev) => (prev < 300 ? prev + 2 : 300));
+      setBuiltArea((prev) => (prev < 50 ? prev + 0.1 : 50));
+      setOngoingProjects((prev) => (prev < 15 ? prev + 1 : 15));
+      setClients((prev) => (prev < 123 ? prev + 1 : 123));
     }, 50);
 
     return () => clearInterval(interval);

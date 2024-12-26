@@ -2,7 +2,7 @@ import React from 'react';
 import s1 from "../../assets/services/SSSE3.jpg"
 import s2 from "../../assets/services/SSSE1.jpg"
 import s3 from "../../assets/services/SSSE16.jpg"
-import s4 from "../../assets/services/SSSE15.jpg"
+import s4 from "../../assets/services/SSSE15.png"
 
 const services = [
   {

@@ -22,6 +22,7 @@ import ProjectBody from "./components/Project/ProjectBody"
 import Services from './components/CEService/Services';
 import FloatingSocialMedia from './components/FloatingSocialMedia';
 import ScrollToTop from './components/ScrollToTop';
+import Gallery from './components/Gallery/Gallery';
 function App() {
   return (
     <div className="App overflow-clip">
@@ -38,6 +39,7 @@ function App() {
   <Route path="/services" element={<Services/>} />
   <Route path="/project" element={<ProjectBody/>} />
   <Route path="/client" element={<Clientele/>} />
+  <Route path="/gallery" element={<Gallery/>} />
   <Route path="/excavation" element={<ExcavationServices/>} />
   <Route path="/demolition" element={<DemolitionDismantle/>} />
   <Route path="/siteprep" element={<SitePreparations/>} />

@@ -1,5 +1,5 @@
-import React from 'react';
-import { FaFacebookF, FaInstagram, FaWhatsapp } from 'react-icons/fa';
+import React from "react";
+import { FaFacebookF, FaInstagram, FaWhatsapp } from "react-icons/fa";
 
 const FloatingSocialMedia = () => {
   return (
@@ -26,11 +26,13 @@ const FloatingSocialMedia = () => {
 
       {/* WhatsApp */}
       <a
-        href="https://wa.me/yourwhatsapplink"
+        href="https://wa.me/919632676109"
         target="_blank"
         rel="noopener noreferrer"
         className="flex items-center justify-center w-12 h-12 bg-green-500 text-white rounded-full shadow-lg hover:bg-green-600 transition"
       >
+        {/* Add icon or text inside the anchor tag if needed */}
+
         <FaWhatsapp size={20} />
       </a>
     </div>
