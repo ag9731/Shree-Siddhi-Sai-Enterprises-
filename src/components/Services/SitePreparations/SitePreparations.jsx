@@ -71,7 +71,7 @@ const SitePreparations = () => {
               </h2>
               <div className="h-1 w-20 bg-yellow-300 mb-8"></div>
               <p className="text-justify text-gray-600 leading-relaxed mb-4">
-                At Chethan Constructions, we bring over 20 years of experience to our site preparation services. Our comprehensive approach ensures that every project starts with a solid foundation. We specialize in jungle cleaning and land leveling to prepare the site for construction, accurate layout formation to guide the project, and soil supplying and compaction to ensure a stable base.
+                At SCS, we bring over 30 years of experience to our site preparation services. Our comprehensive approach ensures that every project starts with a solid foundation. We specialize in jungle cleaning and land leveling to prepare the site for construction, accurate layout formation to guide the project, and soil supplying and compaction to ensure a stable base.
               </p>
               <p className="text-justify text-gray-600 leading-relaxed mb-4">
                 Our commitment to excellence and attention to detail guarantees that your project begins on the right track. With our expertise, we ensure that your construction site is properly prepared, setting the stage for a successful project from the very beginning.

@@ -44,9 +44,10 @@ export default function Component() {
             <div className="flex-grow border-t w-[50px] md:w-[100px] border-black"></div>
           </div>
           <p className="text-center lg:w-1/2 w-full text-lg  text-gray-600 leading-relaxed mb-6">
-            Shree Siddhi Sai Enterprises is a Bangalore based top player and pioneers
-            in the category of building demolition Contractors in Bangalore. Established
-            in 1994, we have been providing our clients with excellent services in Karnataka and across India.
+            Shree Chethana Services is a Bangalore based top player and pioneers
+            in the category of building demolition, mass excavation Contractors
+            in Bangalore. Established in 1994, we have been providing our
+            clients with excellent services in Karnataka and across India.
           </p>
         </div>
         <div className="flex flex-wrap -m-4">

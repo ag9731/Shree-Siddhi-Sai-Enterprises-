@@ -16,7 +16,7 @@ const FooterNew = () => {
   };
 
   return (
-    <footer className="bg-zinc-950 text-white py-8">
+    <footer className="bg-zinc-950 text-white py-8 mt-8">
       <div className="container mx-auto px-4">
         <section className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
           {/* About Us Column */}
@@ -83,7 +83,7 @@ const FooterNew = () => {
             <div className="rounded-md overflow-hidden shadow-lg mt-3">
               <iframe
                 title="Google Map Location"
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12293.072665448249!2d77.6410911640136!3d12.976573573247906!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae15af6ef2b6b7%3A0x4e0e59974a3d0984!2sChinmaya%20Mission%20Hospital%2C%20Indiranagar%2C%20Bengaluru%2C%20Karnataka!5e0!3m2!1sen!2sin!4v1648983421007!5m2!1sen!2sin"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3890.842546729585!2d77.5153455748178!3d13.035636187051314!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae1797990373f7%3A0xa97fc4bc31411193!2s637%2C%20Muniyappa%20Complex%2C%20Jalahalli%20Cross%20Circle%2C%20Peenya%2C%20Bengaluru%2C%20Karnataka%20560057!5e0!3m2!1sen!2sin!4v1692619278184!5m2!1sen!2sin"
                 width="100%"
                 height="200"
                 style={{ border: 0 }}

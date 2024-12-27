@@ -82,7 +82,7 @@ const DemolitionDismantle = () => {
               </h2>
               <div className="h-1 w-20 bg-yellow-300 mb-8"></div>
               <p className="text-justify text-gray-600 leading-relaxed mb-4">
-                At Chethan Constructions, we offer comprehensive demolition and dismantling services with over 20 years of industry expertise. Our focus on safety, efficiency, and environmental responsibility ensures that each project is executed with the highest standards.
+                At SCS, we offer comprehensive demolition and dismantling services with over 30 years of industry expertise. Our focus on safety, efficiency, and environmental responsibility ensures that each project is executed with the highest standards.
               </p>
               <p className="text-justify text-gray-600 leading-relaxed mb-4">
                 From full and partial demolitions to specialized interior dismantling and warm shell removals, our team is equipped to handle diverse requirements. We also provide reinstatement services to renew and reconstruct structures, demonstrating our commitment to exceeding client expectations.

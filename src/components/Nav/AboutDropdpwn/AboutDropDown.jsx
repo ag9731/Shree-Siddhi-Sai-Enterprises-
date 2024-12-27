@@ -131,7 +131,7 @@ export default function AboutDropdown() {
               Our Team
             </Link>
           </li>
-          <li role="none">
+          {/* <li role="none">
             <Link 
               to="/core" 
               className="block px-4 py-2 text-gray-700 hover:bg-amber-400 hover:text-white transition-colors duration-200"
@@ -140,7 +140,7 @@ export default function AboutDropdown() {
             >
               Core Principles
             </Link>
-          </li>
+          </li> */}
         </ul>
       </div>
     </div>

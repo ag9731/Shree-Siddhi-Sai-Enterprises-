@@ -25,7 +25,7 @@ export default function Nav() {
           <AboutDropdown />
           {/* <ServicesDropdown /> */}
           <NavLink to="/SERVICES">SERVICES</NavLink>
-          <NavLink to="/project">PROJECT</NavLink>
+          {/* <NavLink to="/project">PROJECT</NavLink> */}
           <NavLink to="/client">CLIENTS</NavLink>
           <NavLink to="/gallery">GALLERY</NavLink>
           <NavLink to="/contact">CONTACT US</NavLink>

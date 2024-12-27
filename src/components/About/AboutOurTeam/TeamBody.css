@@ -1,11 +1,12 @@
 .teamBg {
     background-image: url("../../../assets/homeHero2.jpg");
     background-attachment: fixed;
-    height: 800px;
-    
-    padding: 140px;
-    position: relative; /* Ensure the overlay is positioned correctly */
-    z-index: 1; /* Keep it above other content if necessary */
+    padding: 10rem 1rem;
+    /* Responsive padding */
+    position: relative;
+    z-index: 1;
+    min-height: 100vh;
+    /* Full height coverage */
 }
 
 .teamBg::before {
@@ -15,20 +16,52 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.5); /* Adjust the opacity to control the tint */
-    z-index: -1; /* Place it behind any content inside .teamBg */
+    background-color: rgba(0, 0, 0, 0.5);
+    /* Overlay effect */
+    z-index: -1;
 }
 
-/* Increase height for mobile screens */
+/* Mobile Styles */
 @media (max-width: 640px) {
     .teamBg {
-        height: 1300px; /* Increase height for mobile screens */
+        background-attachment: scroll;
+        /* Prevent fixed background on small devices */
+        padding: 8rem 1rem;
+    }
+
+    .teamBg h1 {
+        font-size: 1.5rem;
+        /* Smaller font for titles */
+    }
+
+    .teamBg img {
+        width: 100%;
+        /* Full-width images */
+        height: auto;
+        /* Maintain aspect ratio */
     }
 }
 
-/* Increase height for tablet screens */
+/* Tablet Styles */
 @media (min-width: 641px) and (max-width: 1024px) {
     .teamBg {
-        height: 700px; /* Increase height for tablet screens */
+        padding: 8rem 2rem;
+    }
+
+    .teamBg h1 {
+        font-size: 2rem;
+        /* Medium font size for tablets */
+    }
+}
+
+/* Desktop Styles */
+@media (min-width: 1025px) {
+    .teamBg {
+        padding: 12rem 4rem;
+    }
+
+    .teamBg h1 {
+        font-size: 2.5rem;
+        /* Larger font for desktops */
     }
 }

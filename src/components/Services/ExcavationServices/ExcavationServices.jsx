@@ -72,7 +72,7 @@ const ExcavationServices = () => {
               </h2>
               <div className="h-1 w-20 bg-yellow-300 mb-8"></div>
               <p className="text-justify text-gray-600 leading-relaxed mb-4">
-                At Chethan Constructions, we leverage over 20 years of extensive experience and unwavering professionalism in providing top-tier excavation services. Our solid reputation in the industry is built on a track record of successfully handling diverse and challenging excavation projects across India.
+                At SCS, we leverage over 30 years of extensive experience and unwavering professionalism in providing top-tier excavation services. Our solid reputation in the industry is built on a track record of successfully handling diverse and challenging excavation projects across India.
               </p>
               <p className="text-justify text-gray-600 leading-relaxed mb-4">
                 We pride ourselves on our continuous innovation and adaptability to the latest industry standards, pushing the boundaries of what's possible in excavation. From our modest beginnings to becoming a recognized leader in the field, we consistently deliver excavation solutions that not only meet but exceed our clients' expectations.

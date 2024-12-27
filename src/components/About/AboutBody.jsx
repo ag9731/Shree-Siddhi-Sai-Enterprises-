@@ -10,12 +10,15 @@ const AboutBody = () => {
       <div className="max-w-7xl mx-auto bg-white shadow-xl rounded-lg overflow-hidden">
         {/* Header */}
         <div className="relative py-8 px-4 sm:px-6 lg:px-8">
-          <div className="absolute inset-0 flex items-center" aria-hidden="true">
+          <div
+            className="absolute inset-0 flex items-center"
+            aria-hidden="true"
+          >
             <div className="w-full border-t border-gray-300" />
           </div>
           <div className="relative mt-20">
             <h1 className="text-center text-3xl sm:text-4xl font-extrabold tracking-tight text-amber-600">
-              ABOUT SSS ENTERPRISES
+              About SCS
             </h1>
           </div>
         </div>
@@ -30,13 +33,31 @@ const AboutBody = () => {
                   Experience & Professionalism
                 </h2>
                 <p className="mt-3 text-lg text-gray-700">
-                  At Chethan, we bring over 20 years of extensive experience and unwavering professionalism to every project. We have established a solid reputation for excellence and reliability in the construction industry by successfully executing diverse and challenging projects across India.
+                  At SCS, we bring over 30 years of extensive experience and
+                  unwavering professionalism to every project. We have
+                  established a solid reputation for excellence and reliability
+                  in the construction industry by successfully executing diverse
+                  and challenging projects across India.
                 </p>
                 <ul className="mt-4 space-y-3 text-gray-700">
-                  {['20 Years of Industry Leadership', 'Diverse Project Portfolio', 'Advanced Technology & Methods'].map((item, index) => (
+                  {[
+                    "30 Years of Industry Leadership",
+                    "Diverse Project Portfolio",
+                    "Advanced Technology & Methods",
+                  ].map((item, index) => (
                     <li key={index} className="flex items-start">
-                      <svg className="flex-shrink-0 h-6 w-6 text-amber-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+                      <svg
+                        className="flex-shrink-0 h-6 w-6 text-amber-500"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke="currentColor"
+                      >
+                        <path
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          strokeWidth={2}
+                          d="M5 13l4 4L19 7"
+                        />
                       </svg>
                       <span className="ml-3">{item}</span>
                     </li>
@@ -59,13 +80,29 @@ const AboutBody = () => {
                   Our Commitment to Professionalism
                 </h2>
                 <p className="mt-3 text-lg text-gray-700">
-                  Client-Centric Approach: We prioritize clear communication and responsiveness, ensuring our clients are informed and satisfied throughout the project lifecycle.
+                  Client-Centric Approach: We prioritize clear communication and
+                  responsiveness, ensuring our clients are informed and
+                  satisfied throughout the project lifecycle.
                 </p>
                 <ul className="mt-4 space-y-3 text-gray-700">
-                  {['Safety & Compliance', 'Quality Assurance', 'Advanced Technology & Methods'].map((item, index) => (
+                  {[
+                    "Safety & Compliance",
+                    "Quality Assurance",
+                    "Advanced Technology & Methods",
+                  ].map((item, index) => (
                     <li key={index} className="flex items-start">
-                      <svg className="flex-shrink-0 h-6 w-6 text-amber-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+                      <svg
+                        className="flex-shrink-0 h-6 w-6 text-amber-500"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke="currentColor"
+                      >
+                        <path
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          strokeWidth={2}
+                          d="M5 13l4 4L19 7"
+                        />
                       </svg>
                       <span className="ml-3">{item}</span>
                     </li>
@@ -84,7 +121,10 @@ const AboutBody = () => {
             {/* Closing Statement */}
             <div className="text-center max-w-3xl mx-auto">
               <p className="text-xl text-gray-700 leading-8">
-                Our dedication to excellence has earned us recognition within the industry and repeat business from satisfied clients. Whether it's excavation, demolition, or site preparation, Chethan is synonymous with reliability and expertise.
+                Our dedication to excellence has earned us recognition within
+                the industry and repeat business from satisfied clients. Whether
+                it's excavation, demolition, or site preparation, Chethan is
+                synonymous with reliability and expertise.
               </p>
             </div>
 
