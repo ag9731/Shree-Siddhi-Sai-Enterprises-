@@ -23,6 +23,7 @@ import Services from './components/CEService/Services';
 import FloatingSocialMedia from './components/FloatingSocialMedia';
 import ScrollToTop from './components/ScrollToTop';
 import Gallery from './components/Gallery/Gallery';
+import FooterNew from './components/Footer/FooterNew';
 function App() {
   return (
     <div className="App overflow-clip">
@@ -46,7 +47,8 @@ function App() {
   
   <Route path="/contact" element={<Contact/>} />
 </Routes>
-<Footer/>
+{/* <Footer/> */}
+<FooterNew/>
     </Router>
     <FloatingSocialMedia/>
     </div>
