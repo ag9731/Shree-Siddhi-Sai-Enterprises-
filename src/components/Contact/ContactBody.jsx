@@ -45,9 +45,9 @@ const ContactBody = () => {
                   icon={faMobileAlt}
                 />
                 <p className="text-gray-950">
-                  {/* <a href="tel:+91-9448334376" className="hover:underline">
+                  <a href="tel:+91-9448334376" className="hover:underline">
                     +91-94483 34376
-                  </a> */}
+                  </a> 
                   <br />
                   <a href="tel:+919632676109" className="hover:underline">
                     +91-9632676109
