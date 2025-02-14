@@ -83,7 +83,7 @@ const FooterNew = () => {
             <div className="rounded-md overflow-hidden shadow-lg mt-3">
               <iframe
                 title="Google Map Location"
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3890.842546729585!2d77.5153455748178!3d13.035636187051314!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae1797990373f7%3A0xa97fc4bc31411193!2s637%2C%20Muniyappa%20Complex%2C%20Jalahalli%20Cross%20Circle%2C%20Peenya%2C%20Bengaluru%2C%20Karnataka%20560057!5e0!3m2!1sen!2sin!4v1692619278184!5m2!1sen!2sin"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.719230584889!2d77.57209037538163!3d12.989801387327244!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae170030771e61%3A0x1bd7dec2a9f95f09!2sChethan%20Cinemas!5e0!3m2!1sen!2sin!4v1739516411249!5m2!1sen!2sin"
                 width="100%"
                 height="200"
                 style={{ border: 0 }}
